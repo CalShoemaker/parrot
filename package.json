@@ -7,6 +7,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
   },
   "devDependencies": {
+    "@types/x-ray": "^2.3.6",
     "prettier": "^3.1.1",
     "turbo": "latest"
   },
@@ -17,5 +18,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "d3": "^7.8.5",
+    "x-ray": "^2.3.4"
+  }
 }
